@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="settings.js"></script>
+    <script type="text/javascript" src="instructions.js"></script>
+<title>Turto</title>
+</head>
+<body>
+    <div id="root">
+        <div class="buttonWrapper">
+                <button v-on:click="processData(instructions)">Run Program</button>
+        </div>
+        <table class="grid-container">
+            <tr v-for="row in tiles">
+                <td v-for="tile in row" v-bind:class="tile"></td>
+            </tr>
+        </table>
+        
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

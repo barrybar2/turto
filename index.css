@@ -1,0 +1,50 @@
+.grid-container {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.buttonWrapper {
+  text-align: center;
+}
+
+.buttonWrapper button {
+  all: unset;
+  background: #2898de;
+  color: white;
+  padding: 17px;
+  border-radius: 2px;
+  margin: 4px;
+}
+
+.grid-container td {
+  background: #fad8d6;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.grid-container .bomb {
+  background: #2e282a;
+}
+
+.grid-container .turtle {
+  background: #17bebb;
+}
+
+.grid-container .exit {
+  background: #edb88b;
+}
+
+.grid-container .north {
+  border-top: 3px #cd5334 solid;
+}
+.grid-container .east {
+  border-right: 3px #cd5334 solid;
+}
+.grid-container .west {
+  border-left: 3px #cd5334 solid;
+}
+.grid-container .south {
+  border-bottom: 3px #cd5334 solid;
+}
